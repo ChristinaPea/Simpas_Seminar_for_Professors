@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Simpas Seminar Schedule</title>
+    <style>
+        body {
+            font-family: Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('simpas_banner.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2vw;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 2vw;
+            box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
+            margin: 2vw;
+            width: calc(100% - 4vw);
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 15vw;
+            max-width: 100%;
+            margin-bottom: 1vw;
+        }
+
+        .text-container {
+            text-align: center;
+            margin-bottom: 1vw;
+            width: 100%;
+            color: rgb(30, 60, 120);
+        }
+
+        .big-text,
+        .small-text {
+            white-space: nowrap;
+        }
+
+        .big-text {
+            font-size: 2vw;
+            font-weight: bold;
+            margin-bottom: 0.5vw;
+        }
+
+        .small-text {
+            font-size: 1.5vw;
+            max-width: 80%;
+            margin-bottom: 0.5vw;
+        }
+
+        h1,
+        p {
+            color: rgb(30, 60, 120);
+            margin-bottom: 1vw;
+            font-size: 1.8vw;
+            line-height: 1;
+            font-weight: bold;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            margin-top: 1vw;
+        }
+
+        button {
+            flex: 1;
+            width: 48%;
+            padding: 0.5vw 1vw;
+            font-size: 1.5vw;
+            margin: 0.8vw;
+            max-width: 100%;
+            color: white;
+            background-color: rgb(70, 84, 221);
+            border-color: rgb(70, 84, 221);
+            border-radius: 1vw;
+            cursor: pointer;
+            margin-right: 2vw;
+        }
+
+        @media (max-width: 1200px) {
+            .big-text,
+            .small-text,
+            h1,
+            p {
+                font-size: 2.5vw;
+            }
+
+            .small-text {
+                font-size: 1.2vw;
+            }
+
+            .container {
+                width: calc(100% - 2vw);
+                padding: 1vw;
+                margin: 1vw;
+            }
+
+            img {
+                width: 10vw;
+                margin-bottom: 0.5vw;
+            }
+
+            button {
+                padding: 0.3vw 1vw;
+                font-size: 1.2vw;
+                margin: 0.3vw;
+                border-radius: 0.5vw;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .big-text,
+            .small-text,
+            h1,
+            p {
+                font-size: 5vw;
+            }
+
+            .small-text {
+                font-size: 2.5vw;
+            }
+
+            .container {
+                width: calc(100% - 2vw);
+                padding: 1vw;
+                margin: 1vw;
+            }
+
+            img {
+                width: 10vw;
+                margin-bottom: 0.5vw;
+            }
+
+            button {
+                padding: 0.3vw 1vw;
+                font-size: 1.2vw;
+                margin: 0.3vw;
+                border-radius: 0.5vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="Simpas_Logo.png" alt="Simpas Logo">
+        <div class="text-container">
+            <span class="big-text">Simpas<br></span>
+            <span class="small-text">World-class,</span>
+            <span class="small-text">Multi-disciplinary research facility.</span>
+        </div>
+        <h1>Simpas Seminar Schedule for Professors' Opening Speech</h1>
+        <p>Do you have a VPN:</p>
+        <div class="button-container">
+            <button onclick="window.location.href='https://forms.gle/59J2AcSgp2czZjTp6';">Yes</button>
+            <button onclick="window.location.href='https://www.wjx.cn/vm/rXVddrC.aspx#';">No</button>
+        </div>
+    </div>
+</body>
+
+</html>
